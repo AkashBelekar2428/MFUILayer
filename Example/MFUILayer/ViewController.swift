@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MFUILayer
 
 class ViewController: UIViewController {
 

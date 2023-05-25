@@ -4,6 +4,9 @@ platform :ios, '10.0'
 
 target 'MFUILayer_Example' do
   pod 'MFUILayer', :path => '../'
+  pod 'Alamofire', '~> 5.4'
+  pod 'SVProgressHUD'
+  pod 'ObjectMapper', '~> 3.5'
 
   target 'MFUILayer_Tests' do
     inherit! :search_paths

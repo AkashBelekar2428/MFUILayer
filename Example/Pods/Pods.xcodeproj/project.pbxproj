@@ -13,8 +13,24 @@
 		4BBA8474BC9F014EC831D2AC0615EA25 /* Pods-MFUILayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0908502C2309B05BB306052923F78E8 /* Pods-MFUILayer_Example-dummy.m */; };
 		65ABACE3D697078A6C32D6EEB6F0ECD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A9A2D93308B829EE76DEECC58BFC032D /* MFUILayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3712D465130B14D3113A8636F110FDC0 /* MFUILayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE670F192A1F14B300E2EC82 /* AuthenticationLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F022A1F14B200E2EC82 /* AuthenticationLogIn.swift */; };
+		AE670F1A2A1F14B300E2EC82 /* AuthenticationLogIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE670F032A1F14B200E2EC82 /* AuthenticationLogIn.xib */; };
+		AE670F1B2A1F14B300E2EC82 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F052A1F14B200E2EC82 /* Utility.swift */; };
+		AE670F1C2A1F14B300E2EC82 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F062A1F14B200E2EC82 /* Colors.swift */; };
+		AE670F1D2A1F14B300E2EC82 /* AuthenticationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F072A1F14B200E2EC82 /* AuthenticationConfiguration.swift */; };
+		AE670F1E2A1F14B300E2EC82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE670F092A1F14B300E2EC82 /* Images.xcassets */; };
+		AE670F1F2A1F14B300E2EC82 /* TATextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F0B2A1F14B300E2EC82 /* TATextFiled.swift */; };
+		AE670F202A1F14B300E2EC82 /* TALable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F0C2A1F14B300E2EC82 /* TALable.swift */; };
+		AE670F212A1F14B300E2EC82 /* TAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F0D2A1F14B300E2EC82 /* TAImage.swift */; };
+		AE670F222A1F14B300E2EC82 /* TAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F0E2A1F14B300E2EC82 /* TAButton.swift */; };
+		AE670F232A1F14B300E2EC82 /* TAUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F0F2A1F14B300E2EC82 /* TAUIView.swift */; };
+		AE670F242A1F14B300E2EC82 /* Email_Address.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE670F112A1F14B300E2EC82 /* Email_Address.xib */; };
+		AE670F252A1F14B300E2EC82 /* Email_Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F122A1F14B300E2EC82 /* Email_Address.swift */; };
+		AE670F262A1F14B300E2EC82 /* Mobile_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F142A1F14B300E2EC82 /* Mobile_Number.swift */; };
+		AE670F272A1F14B300E2EC82 /* Mobile_Number.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE670F152A1F14B300E2EC82 /* Mobile_Number.xib */; };
+		AE670F282A1F14B300E2EC82 /* PINView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE670F172A1F14B300E2EC82 /* PINView.swift */; };
+		AE670F292A1F14B300E2EC82 /* PINView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE670F182A1F14B300E2EC82 /* PINView.xib */; };
 		C0E8BD7CF55A06D7E6CBE9BC8F6E99D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C3216AB7ADDC87C702B9C888CEA1ECB2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A95F4BA5831A522389B08268F2808 /* ReplaceMe.swift */; };
 		C4E2FE8656045665CF5783A07E6231AD /* MFUILayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AF4C6C3A0C3D92A23DE7C4564202 /* MFUILayer-dummy.m */; };
 		F9EAEA0E3A420358D868C2F4EA60195F /* Pods-MFUILayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9963FD7FCD401A5281CCD4C587F8392A /* Pods-MFUILayer_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -46,7 +62,6 @@
 		489B3F2589794F255B3F07911FB3EA9C /* MFUILayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MFUILayer-Info.plist"; sourceTree = "<group>"; };
 		57F312597AB0E57A1550DF952BA28802 /* Pods-MFUILayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFUILayer_Example.modulemap"; sourceTree = "<group>"; };
 		67BEDC20B580025D734C1A026BFFF339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6F3A95F4BA5831A522389B08268F2808 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MFUILayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75C9CBF654B7E7AFB2700BC79F83BE79 /* Pods-MFUILayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFUILayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CD96B394D088B85438764B6774B227D /* Pods-MFUILayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFUILayer_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +73,23 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0089875E2C67FB523516851B66F4E4 /* MFUILayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFUILayer.release.xcconfig; sourceTree = "<group>"; };
 		ABCD338167DB0B8DE486475FBBF77CCA /* MFUILayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFUILayer.debug.xcconfig; sourceTree = "<group>"; };
+		AE670F022A1F14B200E2EC82 /* AuthenticationLogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationLogIn.swift; sourceTree = "<group>"; };
+		AE670F032A1F14B200E2EC82 /* AuthenticationLogIn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationLogIn.xib; sourceTree = "<group>"; };
+		AE670F052A1F14B200E2EC82 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AE670F062A1F14B200E2EC82 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AE670F072A1F14B200E2EC82 /* AuthenticationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationConfiguration.swift; sourceTree = "<group>"; };
+		AE670F092A1F14B300E2EC82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE670F0B2A1F14B300E2EC82 /* TATextFiled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TATextFiled.swift; sourceTree = "<group>"; };
+		AE670F0C2A1F14B300E2EC82 /* TALable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TALable.swift; sourceTree = "<group>"; };
+		AE670F0D2A1F14B300E2EC82 /* TAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAImage.swift; sourceTree = "<group>"; };
+		AE670F0E2A1F14B300E2EC82 /* TAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAButton.swift; sourceTree = "<group>"; };
+		AE670F0F2A1F14B300E2EC82 /* TAUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAUIView.swift; sourceTree = "<group>"; };
+		AE670F112A1F14B300E2EC82 /* Email_Address.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Email_Address.xib; sourceTree = "<group>"; };
+		AE670F122A1F14B300E2EC82 /* Email_Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email_Address.swift; sourceTree = "<group>"; };
+		AE670F142A1F14B300E2EC82 /* Mobile_Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mobile_Number.swift; sourceTree = "<group>"; };
+		AE670F152A1F14B300E2EC82 /* Mobile_Number.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mobile_Number.xib; sourceTree = "<group>"; };
+		AE670F172A1F14B300E2EC82 /* PINView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PINView.swift; sourceTree = "<group>"; };
+		AE670F182A1F14B300E2EC82 /* PINView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PINView.xib; sourceTree = "<group>"; };
 		AFC98E0F995ECCF60B399723C0206E6A /* Pods-MFUILayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFUILayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0908502C2309B05BB306052923F78E8 /* Pods-MFUILayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFUILayer_Example-dummy.m"; sourceTree = "<group>"; };
 		B6D66D47D6D7465F3BC1EC9C1B2BC884 /* MFUILayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFUILayer-prefix.pch"; sourceTree = "<group>"; };
@@ -130,7 +162,7 @@
 		46C04C3AD639320FEAF34157D1D3E03A /* MFUILayer */ = {
 			isa = PBXGroup;
 			children = (
-				6F3A95F4BA5831A522389B08268F2808 /* ReplaceMe.swift */,
+				AE670F002A1F148A00E2EC82 /* Source */,
 				044C6274B4F2952A666C4E4676531781 /* Pod */,
 				EDD1F78A184DCD43DF425405C875F860 /* Support Files */,
 			);
@@ -144,6 +176,86 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AE670F002A1F148A00E2EC82 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F082A1F14B300E2EC82 /* Assest */,
+				AE670F012A1F14B200E2EC82 /* Authentication */,
+				AE670F042A1F14B200E2EC82 /* Configuration */,
+				AE670F102A1F14B300E2EC82 /* Email */,
+				AE670F132A1F14B300E2EC82 /* Mobile */,
+				AE670F162A1F14B300E2EC82 /* PIN */,
+				AE670F0A2A1F14B300E2EC82 /* UIElement */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AE670F012A1F14B200E2EC82 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F022A1F14B200E2EC82 /* AuthenticationLogIn.swift */,
+				AE670F032A1F14B200E2EC82 /* AuthenticationLogIn.xib */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AE670F042A1F14B200E2EC82 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F052A1F14B200E2EC82 /* Utility.swift */,
+				AE670F062A1F14B200E2EC82 /* Colors.swift */,
+				AE670F072A1F14B200E2EC82 /* AuthenticationConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		AE670F082A1F14B300E2EC82 /* Assest */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F092A1F14B300E2EC82 /* Images.xcassets */,
+			);
+			path = Assest;
+			sourceTree = "<group>";
+		};
+		AE670F0A2A1F14B300E2EC82 /* UIElement */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F0B2A1F14B300E2EC82 /* TATextFiled.swift */,
+				AE670F0C2A1F14B300E2EC82 /* TALable.swift */,
+				AE670F0D2A1F14B300E2EC82 /* TAImage.swift */,
+				AE670F0E2A1F14B300E2EC82 /* TAButton.swift */,
+				AE670F0F2A1F14B300E2EC82 /* TAUIView.swift */,
+			);
+			path = UIElement;
+			sourceTree = "<group>";
+		};
+		AE670F102A1F14B300E2EC82 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F112A1F14B300E2EC82 /* Email_Address.xib */,
+				AE670F122A1F14B300E2EC82 /* Email_Address.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		AE670F132A1F14B300E2EC82 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F142A1F14B300E2EC82 /* Mobile_Number.swift */,
+				AE670F152A1F14B300E2EC82 /* Mobile_Number.xib */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		AE670F162A1F14B300E2EC82 /* PIN */ = {
+			isa = PBXGroup;
+			children = (
+				AE670F172A1F14B300E2EC82 /* PINView.swift */,
+				AE670F182A1F14B300E2EC82 /* PINView.xib */,
+			);
+			path = PIN;
 			sourceTree = "<group>";
 		};
 		C1DCC5D2E2BC86873D6F1DEF5EAB471C /* Products */ = {
@@ -316,7 +428,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					795B82F630785B8739383FFE373A110A = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,6 +474,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE670F1A2A1F14B300E2EC82 /* AuthenticationLogIn.xib in Resources */,
+				AE670F242A1F14B300E2EC82 /* Email_Address.xib in Resources */,
+				AE670F272A1F14B300E2EC82 /* Mobile_Number.xib in Resources */,
+				AE670F292A1F14B300E2EC82 /* PINView.xib in Resources */,
+				AE670F1E2A1F14B300E2EC82 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +497,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE670F212A1F14B300E2EC82 /* TAImage.swift in Sources */,
 				C4E2FE8656045665CF5783A07E6231AD /* MFUILayer-dummy.m in Sources */,
-				C3216AB7ADDC87C702B9C888CEA1ECB2 /* ReplaceMe.swift in Sources */,
+				AE670F1C2A1F14B300E2EC82 /* Colors.swift in Sources */,
+				AE670F252A1F14B300E2EC82 /* Email_Address.swift in Sources */,
+				AE670F202A1F14B300E2EC82 /* TALable.swift in Sources */,
+				AE670F222A1F14B300E2EC82 /* TAButton.swift in Sources */,
+				AE670F1D2A1F14B300E2EC82 /* AuthenticationConfiguration.swift in Sources */,
+				AE670F192A1F14B300E2EC82 /* AuthenticationLogIn.swift in Sources */,
+				AE670F1F2A1F14B300E2EC82 /* TATextFiled.swift in Sources */,
+				AE670F1B2A1F14B300E2EC82 /* Utility.swift in Sources */,
+				AE670F262A1F14B300E2EC82 /* Mobile_Number.swift in Sources */,
+				AE670F232A1F14B300E2EC82 /* TAUIView.swift in Sources */,
+				AE670F282A1F14B300E2EC82 /* PINView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +555,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MFUILayer_Example/Pods-MFUILayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MFUILayer_Example/Pods-MFUILayer_Example.modulemap";
@@ -455,7 +588,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MFUILayer_Example/Pods-MFUILayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MFUILayer_Example/Pods-MFUILayer_Example.modulemap";
@@ -489,7 +622,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MFUILayer/MFUILayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MFUILayer/MFUILayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MFUILayer/MFUILayer.modulemap";
 				PRODUCT_MODULE_NAME = MFUILayer;
@@ -497,7 +630,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -520,7 +653,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MFUILayer/MFUILayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MFUILayer/MFUILayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MFUILayer/MFUILayer.modulemap";
 				PRODUCT_MODULE_NAME = MFUILayer;
@@ -528,7 +661,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,6 +704,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -613,7 +747,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MFUILayer_Tests/Pods-MFUILayer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MFUILayer_Tests/Pods-MFUILayer_Tests.modulemap";
@@ -647,7 +781,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MFUILayer_Tests/Pods-MFUILayer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MFUILayer_Tests/Pods-MFUILayer_Tests.modulemap";
@@ -699,6 +833,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;

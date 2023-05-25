@@ -1,0 +1,6 @@
+framework module MFUILayer {
+  umbrella header "MFUILayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

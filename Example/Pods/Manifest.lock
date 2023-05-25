@@ -1,0 +1,16 @@
+PODS:
+  - MFUILayer (0.1.0)
+
+DEPENDENCIES:
+  - MFUILayer (from `../`)
+
+EXTERNAL SOURCES:
+  MFUILayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFUILayer: dc9c00468d72d8fa9af37c99d889b6bac45e7545
+
+PODFILE CHECKSUM: 86773b2f76859ae2eafc2ee68dda1a56098d3b72
+
+COCOAPODS: 1.12.1
